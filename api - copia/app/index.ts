@@ -25,13 +25,17 @@ class AppContainer extends HTMLElement {
        <img src="${image}">
        
        <div class="contenido">
-       <h4>Género: ${gender}</h4>
-       <br>
-       <h4>Especie: ${species}</h4>
-       <br>
 
-       <h4>Status: ${status}</h4>
-       <br>
+       <select name="select" class="selector">
+       <option value="value1"> Datos</option>
+
+  <option value="value1"> Género: ${gender}</option>
+  
+  <option value="value2">Especie: ${species}</option>
+
+  <option value="value2">Especie: ${status}</option>
+  
+  </select>
 
        </div>
        </div>
